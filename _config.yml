@@ -30,8 +30,8 @@ plugins:
   - jekyll-sitemap
 
 # A list of the pages to display in the navigation bar
-header_pages:
-  - contact.md
+# header_pages:
+#   - contact.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

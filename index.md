@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Test title
+layout: home
+title: Home
 ---
 
 ### Hello world

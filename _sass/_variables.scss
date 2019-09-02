@@ -5,12 +5,12 @@
 
 // Some customization of the container class to have a better display in the guide.
 // Don't hesitate to remove it to have a standard Bootstrap behavior
-$container-max-widths: (
-  sm: 540px,
-  md: 640px,
-  lg: 690px,
-  xl: 720px
-) !default;
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 640px,
+//   lg: 690px,
+//   xl: 720px
+// ) !default;
 
 // Minty 4.3.1
 // Bootswatch
@@ -49,7 +49,18 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$dark:          $gray-700 !default;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark
+);
 
 $yiq-contrasted-threshold: 250 !default;
 
