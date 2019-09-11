@@ -55,13 +55,6 @@
   }
 }
 
-.mobile-toggle {
-  display: block;
-  width: 30px;
-  height: 30px;
-  padding: 0;
-}
-
 .mobile-toggle span:after,
 .mobile-toggle span:before {
   content: "";
@@ -75,6 +68,26 @@
 .mobile-toggle span {
   position: relative;
   display: block;
+}
+
+.mobile-toggle {
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background: transparent;
+
+  &:focus {
+    outline: none;
+  }
+
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
 }
 
 .mobile-toggle span,
