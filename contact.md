@@ -4,6 +4,7 @@ title: Contact
 ---
 
 <form action="https://formspree.io/jamesreading473@gmail.com" method="POST">
+  <input type="hidden" name="_next" value={{ '/contact' | relative_url }} />
 
   <fieldset class="form-group">
     <input class="form-control" type="text" name="Name" placeholder="Your name" required>
