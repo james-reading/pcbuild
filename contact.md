@@ -3,11 +3,19 @@ layout: default
 title: Contact
 ---
 
-### Email
-jamesreading473@gmail.com
-
 <form action="https://formspree.io/jamesreading473@gmail.com" method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
+
+  <fieldset class="form-group">
+    <input class="form-control" type="text" name="Your name" placeholder="Name" required>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <input class="form-control" type="email" name="_replyto" placeholder="Email" required>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <textarea class="form-control" rows="3" name="Your message" placeholder="Message" required></textarea>
+  </fieldset>
+
+  <input type="submit" value="Send" class="btn btn-primary">
 </form>
