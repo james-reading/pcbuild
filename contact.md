@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+active: contact
 ---
 
 <form action="https://formspree.io/jamesreading473@gmail.com" method="POST">

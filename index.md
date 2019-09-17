@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+active: home
 ---
 
 ### Hello world
