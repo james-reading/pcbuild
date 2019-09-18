@@ -1,0 +1,31 @@
+---
+layout: default
+title: Contact
+active: contact
+---
+
+<form action="https://formspree.io/jamesreading473@gmail.com" method="POST">
+  <input type="hidden" name="_next" value="{{ '/contact' | absolute_url }}">
+
+  <fieldset class="form-group">
+    <label class="sr-only" for="Name">Name</label>
+    <input class="form-control required" type="text" name="Name" placeholder="Name" required>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <label class="sr-only" for="_replyto">Email</label>
+    <input class="form-control required" type="email" name="_replyto" placeholder="Email" required>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <label class="sr-only" for="Telephone">Telephone</label>
+    <input class="form-control" type="number" name="Telephone" placeholder="Telephone">
+  </fieldset>
+
+  <fieldset class="form-group">
+    <label class="sr-only" for="Message">Telephone</label>
+    <textarea class="form-control" rows="3" name="Message" placeholder="Message" required></textarea>
+  </fieldset>
+
+  <input type="submit" value="Send" class="btn btn-primary">
+</form>
