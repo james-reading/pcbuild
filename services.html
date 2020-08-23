@@ -7,8 +7,8 @@ active: services
 <div class="row">
   {%- for service in site.services -%}
     <div class="col-sm-6 col-md-4 col-lg-3">
-      <a href="{{ service.permalink }}" class='services-card'>
-        <img src="{{  service.img_src }}" alt="{{ service.title }}" width="100%">
+      <a href="{{ service.permalink | relative_url }}" class='services-card'>
+        <img src="{{  service.img_src | relative_url}}" alt="{{ service.title }}" width="100%">
         <div class="services-card__title">{{ service.title }}</div>
       </a>
     </div>
